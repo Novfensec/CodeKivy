@@ -1,0 +1,46 @@
+{
+  "name": "codekivy",
+  "main": "./src/extension.js",
+  "publisher": "Kartavya Shukla",
+  "displayName": "CodeKivy",
+  "description": "Modern Kivy and KvLang support for VSCode ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "kvlang",
+        "aliases": [
+          "KvLang",
+          "kvlang",
+          "kv"
+        ],
+        "extensions": [
+          ".kv"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "kvlang",
+        "path": "./snippets/kvlang.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "kvlang",
+        "scopeName": "source.kvlang",
+        "path": "./syntaxes/kvlang.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "ignore": "^7.0.5"
+  }
+}

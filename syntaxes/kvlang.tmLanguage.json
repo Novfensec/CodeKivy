@@ -1,0 +1,146 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "KvLang",
+	"scopeName": "source.kvlang",
+	"fileTypes": [
+		"kv"
+	],
+	"uuid": "9a45f1ec-1234-4567-8900-kvlang-modern",
+	"patterns": [
+		{
+			"name": "string.quoted.double.kvlang",
+			"begin": "\"",
+			"end": "\""
+		},
+		{
+			"name": "string.quoted.single.kvlang",
+			"begin": "'",
+			"end": "'"
+		},
+		{
+			"name": "comment.line.number-sign.kvlang",
+			"match": "#[^:].*"
+		},
+		{
+			"name": "meta.preprocessor.directive.kvlang",
+			"match": "#:"
+		},
+		{
+			"name": "keyword.control.flow.kvlang",
+			"match": "\\b(if|for|return|import|else|elif|pass|set)\\b"
+		},
+		{
+			"name": "support.function.builtin.kvlang",
+			"match": "\\b(dp|sp)\\b"
+		},
+		{
+			"name": "variable.language.kvlang",
+			"match": "\\b(self|app|root|nonlocal|is|lambda|and|not|or|in)\\b"
+		},
+		{
+			"name": "constant.language.kvlang",
+			"match": "\\b(True|False|None)\\b"
+		},
+		{
+			"match": "\\s*(canvas).(after|before)",
+			"captures": {
+				"1": {
+					"name": "support.type.canvas.kvlang"
+				},
+				"2": {
+					"name": "support.type.canvas.phase.kvlang"
+				}
+			}
+		},
+		{
+			"match": "\\B< *-*([A-Z][a-zA-Z0-9_]*)\\b>",
+			"captures": {
+				"1": {
+					"name": "entity.name.type.class.kvlang"
+				}
+			}
+		},
+		{
+			"match": "\\B\\s([A-Z][a-zA-Z0-9_]*):[\\s]*\\s*",
+			"captures": {
+				"1": {
+					"name": "entity.name.type.widget.kvlang"
+				}
+			}
+		},
+		{
+			"match": "< *(([A-Z][a-zA-Z0-9_]*) *@ *)(([a-zA-Z_][a-zA-Z0-9_]*) *\\+* *)(([a-zA-Z_][a-zA-Z0-9_]*) *\\+* *)(([a-zA-Z_][a-zA-Z0-9_]*) *\\+* *)(([a-zA-Z_][a-zA-Z0-9_]*) *\\+* *)(([a-zA-Z_][a-zA-Z0-9_]*) *>:?)",
+			"captures": {
+				"2": {
+					"name": "entity.name.type.class.kvlang"
+				},
+				"4": {
+					"name": "entity.other.inherited-class.kvlang"
+				},
+				"6": {
+					"name": "entity.other.inherited-class.kvlang"
+				},
+				"8": {
+					"name": "entity.other.inherited-class.kvlang"
+				},
+				"10": {
+					"name": "entity.other.inherited-class.kvlang"
+				},
+				"12": {
+					"name": "entity.other.inherited-class.kvlang"
+				}
+			}
+		},
+		{
+			"match": "< *(-*([A-Z][a-zA-Z0-9_]*) *,* *)(-*([a-zA-Z_][a-zA-Z0-9_]*) *,* *)(-*([a-zA-Z_][a-zA-Z0-9_]*) *,* *)(-*([a-zA-Z_][a-zA-Z0-9_]*) *,* *)(-*([a-zA-Z_][a-zA-Z0-9_]*) *,* *)>:?",
+			"captures": {
+				"2": {
+					"name": "entity.name.type.class.kvlang"
+				},
+				"4": {
+					"name": "entity.other.inherited-class.kvlang"
+				},
+				"6": {
+					"name": "entity.other.inherited-class.kvlang"
+				},
+				"8": {
+					"name": "entity.other.inherited-class.kvlang"
+				},
+				"10": {
+					"name": "entity.other.inherited-class.kvlang"
+				},
+				"12": {
+					"name": "entity.other.inherited-class.kvlang"
+				}
+			}
+		},
+		{
+			"match": "(^[A-Z][a-zA-Z0-9_]*):[\\s]*\\n",
+			"captures": {
+				"1": {
+					"name": "entity.name.type.widget.kvlang"
+				}
+			}
+		},
+		{
+			"match": "\\b(PushMatrix|PopMatrix|Rotate|Translate|Scale|MatrixInstruction|BindTexture|StencilPush|StencilUse|StencilUnUse|StencilPop)\\b",
+			"name": "support.function.context.kvlang"
+		},
+		{
+			"match": "\\B\\s(-*[a-zA-Z_][a-zA-Z0-9_]*)\\b:",
+			"captures": {
+				"1": {
+					"name": "variable.other.property.kvlang"
+				}
+			}
+		},
+		{
+			"name": "constant.character.escape.kvlang",
+			"match": "\\\\"
+		},
+		{
+			"name": "constant.numeric.kvlang",
+			"match": "\\d+"
+		}
+	]
+}

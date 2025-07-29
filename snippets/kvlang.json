@@ -1,0 +1,44 @@
+{
+    "KvLang Class Rule": {
+        "prefix": "definition",
+        "body": [
+            "<${1:MyWidget}>:",
+            "    "
+        ],
+        "description": "Define a KvLang class rule"
+    },
+    "KvLang Property Binding": {
+        "prefix": "property",
+        "body": [
+            "${1:property}: ${2:self.value}"
+        ],
+        "description": "Bind a property to self, root, or app"
+    },
+    "KvLang Event Handler": {
+        "prefix": "on_press, on_release, on_touch_down, on_touch_up, on_touch_move",
+        "body": [
+            "${1|on_press, on_release, on_touch_down, on_touch_up, on_touch_move|}:",
+            "    ${2:${3|app, self, root|}.${4:handle_action()}}"
+        ],
+        "description": "Bind an event to a Python callback"
+    },
+    "KvLang Canvas Block": {
+        "prefix": "canvas",
+        "body": [
+            "canvas.${1:before}:",
+            "    Color:",
+            "        rgba: ${2:[${3:1}, ${4:1}, ${5:1}, ${6:1}]}",
+            "    ${7:Rectangle}:",
+            "        pos: self.pos",
+            "        size: self.size"
+        ],
+        "description": "Insert a canvas instruction block."
+    },
+    "KvLang Conditional Expression": {
+        "prefix": "if",
+        "body": [
+            "${2:value1} if ${3:self.condition} else ${4:value2}"
+        ],
+        "description": "Insert a conditional expression."
+    }
+}
