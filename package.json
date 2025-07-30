@@ -5,6 +5,27 @@
   "displayName": "CodeKivy",
   "description": "Modern Kivy and KvLang support for VSCode ",
   "version": "0.0.1",
+  "icon": "assets/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Novfensec/CodeKivy"
+  },
+  "license": "MIT",
+  "keywords": [
+    "kivy",
+    "kvlang",
+    "syntax",
+    "highlighting",
+    "language",
+    "extension",
+    "vscode",
+    "codekivy",
+    "kv",
+    "python",
+    "programming",
+    "development",
+    "editor"
+  ],
   "engines": {
     "vscode": "^1.102.0"
   },
