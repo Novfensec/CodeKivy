@@ -7,17 +7,25 @@
 [![GitHub Forks](https://img.shields.io/github/forks/Novfensec/CodeKivy?style=flat-square)](https://github.com/Novfensec/CodeKivy/network/members)
 [![GitHub Watchers](https://img.shields.io/github/watchers/Novfensec/CodeKivy?style=flat-square)](https://github.com/Novfensec/CodeKivy/watchers)
 
-![icon](https://raw.githubusercontent.com/Novfensec/CodeKivy/master/assets/icon.png)
+<p align="center">
+    <img height="180" align="right" padding="11" src="https://raw.githubusercontent.com/Novfensec/CodeKivy/master/assets/icon.png" style="border-radius:1em" 
+            title="kvdeveloper create MyApp --template nav_toolbar"
+        />
+</p>
 
-CodeKivy is a Visual Studio Code extension that brings modern Kivy and KvLang support to your editor. It provides syntax highlighting, snippets, and intelligent autocompletion for `.kv` files, making Kivy UI development faster and more productive.
+CodeKivy is a powerful and thoughtfully crafted Visual Studio Code extension that transforms the way you build user interfaces with Kivy and KvLang—Python’s dynamic, declarative UI framework and language. Whether you're crafting elegant mobile apps, responsive desktop tools, or experimental UI prototypes, CodeKivy equips you with a modern, intuitive development environment tailored for speed, precision, and creativity.
+
+By integrating deeply with both your .kv files and Python backend, CodeKivy bridges the gap between design and logic—bringing intelligent autocompletion, real-time syntax awareness, and ergonomic snippets directly into your editor. It understands your custom widget classes, tracks property definitions, and adapts to your codebase as it evolves, enabling a seamless and productive workflow.
+
+Gone are the days of manual lookups, boilerplate repetition, and cryptic KvLang errors. With CodeKivy, your editor becomes a smart assistant—highlighting structure, suggesting valid properties, and keeping your UI logic in sync with your Python code. Whether you're iterating rapidly on layout ideas or fine-tuning animations and bindings, CodeKivy helps you stay focused on what matters: building beautiful, functional interfaces with confidence.
 
 ## Features
 
 - **KvLang Syntax Highlighting:**
-    Full syntax highlighting for KvLang files using a custom TextMate grammar.
+    Enjoy vibrant, context-aware syntax highlighting for `.kv` files powered by a custom TextMate grammar. From widget rules to canvas instructions, every element is styled for clarity and readability.
 
 - **Intelligent Autocompletion:**
-    Autocomplete for Kivy widget classes and their properties, including user-defined Python classes and properties.
+    Get smart suggestions for Kivy widgets, properties, and event handlers—including your own Python classes and custom properties. CodeKivy parses your project in real time to offer accurate, context-sensitive completions
 
 - **Snippets:**
     Handy code snippets for common KvLang patterns, such as class rules, property bindings, event handlers, canvas blocks, and conditional expressions.
