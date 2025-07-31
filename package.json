@@ -1,7 +1,7 @@
 {
   "name": "codekivy",
   "main": "./src/extension.js",
-  "publisher": "Kartavya Shukla",
+  "publisher": "KartavyaShukla",
   "displayName": "CodeKivy",
   "description": "Modern Kivy and KvLang support for VSCode ",
   "version": "0.0.1",
