@@ -2,7 +2,7 @@
 
 [![GitHub Issues](https://img.shields.io/github/issues/Novfensec/CodeKivy?style=flat-square)](https://github.com/Novfensec/CodeKivy/issues)
 [![GitHub License](https://img.shields.io/github/license/Novfensec/CodeKivy?style=flat-square)](https://github.com/Novfensec/CodeKivy/blob/main/LICENSE)
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/Novfensec.codekivy?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Novfensec.codekivy)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/KartavyaShukla.codekivy?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=KartavyaShukla.codekivy)
 [![GitHub Stars](https://img.shields.io/github/stars/Novfensec/CodeKivy?style=flat-square)](https://github.com/Novfensec/CodeKivy/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/Novfensec/CodeKivy?style=flat-square)](https://github.com/Novfensec/CodeKivy/network/members)
 [![GitHub Watchers](https://img.shields.io/github/watchers/Novfensec/CodeKivy?style=flat-square)](https://github.com/Novfensec/CodeKivy/watchers)
